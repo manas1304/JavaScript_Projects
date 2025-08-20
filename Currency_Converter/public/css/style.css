@@ -1,0 +1,113 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+    font-family: 'Poppins';
+
+}
+
+.container{
+
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+    height: 340px;
+}
+
+.container h2,form{
+
+    margin-top: 10px;
+
+}
+
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 45vh;
+
+}
+
+input{
+
+    border-radius: 1px solid lightgray;
+    width: 96%;
+    padding-left: 5px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.dropdown{
+
+    display: flex;
+    gap: 20px;
+
+}
+
+.dropdown i{
+
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.selectContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid lightgray;
+    width: 6rem;
+    height: 40px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 2px;
+
+}
+
+.selectContainer img{
+
+    max-width: 2rem;
+
+}
+
+.selectContainer select{
+
+    border: none;
+    outline: none;
+
+}
+
+.msg{
+
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+button{
+
+    color: white;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.15rem;
+    border: none;
+    margin-top: 10px;
+    
+}

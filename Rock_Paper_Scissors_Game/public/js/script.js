@@ -4,8 +4,8 @@ let compScore = 0; // Variable for keeping track of the computer score.
 const choices = document.querySelectorAll(".choice"); // Accessing the choice selected by the user ( all 3 ).
 const msg = document.querySelector("#msg"); // Accessing the Div which displays the win,loose or draw msg.
 
-const userScorePara = document.querySelector("#user-score");
-const compScorePara = document.querySelector("#comp-score");
+const userScorePara = document.querySelector("#user-score"); // Selects the score area of the user
+const compScorePara = document.querySelector("#comp-score"); // Selects the score area of the Computer
 
 choices.forEach( (choice) => {
 
